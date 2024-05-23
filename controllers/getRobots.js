@@ -59,7 +59,7 @@ const getRobotsBySeries = (req = request , res = response) => {
     }else{
         return res.json({
             ok:false,
-            msg:"Error , no hay un robot con ese id",
+            msg:"Error , no hay un robot con esa serie",
             statusCode:404
         });
     }
